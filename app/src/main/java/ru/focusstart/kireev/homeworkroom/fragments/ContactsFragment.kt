@@ -10,8 +10,8 @@ import kotlinx.android.synthetic.main.fragment_contacts.*
 import kotlinx.android.synthetic.main.fragment_contacts.view.*
 import ru.focusstart.kireev.homeworkroom.R
 import ru.focusstart.kireev.homeworkroom.adapters.ContactAdapter
-import ru.focusstart.kireev.homeworkroom.database.ContactsViewModel
-import ru.focusstart.kireev.homeworkroom.database.ContactsViewModelFactory
+import ru.focusstart.kireev.homeworkroom.viewmodels.ContactsViewModel
+import ru.focusstart.kireev.homeworkroom.viewmodels.ContactsViewModelFactory
 
 class ContactsFragment : Fragment(R.layout.fragment_contacts) {
     private val viewModel by lazy {

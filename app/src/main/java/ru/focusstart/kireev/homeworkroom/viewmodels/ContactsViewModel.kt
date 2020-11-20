@@ -1,4 +1,4 @@
-package ru.focusstart.kireev.homeworkroom.database
+package ru.focusstart.kireev.homeworkroom.viewmodels
 
 import android.app.Application
 import android.content.Context
@@ -7,6 +7,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import ru.focusstart.kireev.homeworkroom.database.Contact
+import ru.focusstart.kireev.homeworkroom.database.MainDatabase
 
 class ContactsViewModel(app: Application) : ViewModel() {
     private val db = MainDatabase.getInstance(app)

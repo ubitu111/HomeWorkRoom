@@ -1,4 +1,4 @@
-package ru.focusstart.kireev.homeworkroom.database
+package ru.focusstart.kireev.homeworkroom.viewmodels
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
